@@ -27,3 +27,15 @@ class Coche {
 const miCoche = new Coche("Toyota", "Corolla", 2024, "Rojo", "ABC-1234");
 console.log(miCoche.obtenerInfo());
 miCoche.encender();
+
+
+if( miCoche.encendido ) {
+    aprjrjrjrjaa.skmdaksdls.ssss.ssss.sss
+//
+
+function skksksk{
+  let inan = 0;
+  while( x = 4 >50){
+
+  }
+}
