@@ -1,3 +1,29 @@
-hhahha
+class Coche {
+  constructor(marca, modelo, año, color, placa) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.año = año;
+    this.color = color;
+    this.placa = placa;
+    this.encendido = false;
+  }
 
-ver si hay cambio en el grfo
+  encender() {
+    this.encendido = true;
+    console.log(`${this.marca} ${this.modelo} encendido`);
+  }
+
+  apagar() {
+    this.encendido = false;
+    console.log(`${this.marca} ${this.modelo} apagado`);
+  }
+
+  obtenerInfo() {
+    return `${this.año} ${this.marca} ${this.modelo} - Placa: ${this.placa}`;
+  }
+}
+
+// Ejemplo de uso
+const miCoche = new Coche("Toyota", "Corolla", 2024, "Rojo", "ABC-1234");
+console.log(miCoche.obtenerInfo());
+miCoche.encender();
